@@ -1,0 +1,358 @@
+:root {
+  --font: "Noto Sans", serif;
+  --whitecolor: white;
+  --graycolour: rgba(128, 128, 128, 0.411);
+  --divbackgroundclr: rgb(9, 14, 43);
+  --textcolor: rgba(231, 231, 232, 0.94);
+}
+
+/* ==== app ==== */
+#app {
+  background-image: url('../public/body-background-1.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* ==== navbar ==== */
+.navicon {
+  font-size: 22px;
+  color: var(--whitecolor);
+  cursor: pointer;
+}
+
+form{
+  width: 88%;
+}
+
+.navinput {
+  background-color: rgb(15, 21, 53) !important;
+  border: 1px solid var(--graycolour) !important;
+}
+
+#searchicon {
+  color: var(--whitecolor) !important;
+  padding-top: 12px !important;
+}
+
+.navinput::placeholder {
+  font: 500 16px var(--font);
+  color: var(--graycolour) !important;
+}
+
+/* ==== herosection ==== */
+#avtar {
+  border-radius: 50% !important;
+  width: 60px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.471);
+  border: 5px solid rgb(0, 172, 247);
+}
+
+#herohead1 {
+  font: 400 20px var(--font);
+  color: var(--whitecolor);
+}
+
+#herodiv {
+  border-right: 1px solid var(--graycolour);
+}
+
+#heroicon {
+  font-size: 11px;
+  color: var(--whitecolor);
+}
+
+#herohead2 {
+  font: 400 16px var(--font);
+  color: var(--whitecolor);
+}
+
+#herodiv1 {
+  background-color: var(--divbackgroundclr);
+}
+
+#herotext {
+  font: 400 15px var(--font);
+  color: var(--textcolor);
+}
+
+#herohead {
+  font: 500 24px var(--font);
+  color: var(--whitecolor);
+}
+
+#herodatadiv {
+  border-right: 1px solid var(--graycolour);
+}
+
+.herodata1 {
+  font: 500 22px var(--font);
+  color: var(--whitecolor);
+}
+
+.herodata2 {
+  font: 400 14px var(--font);
+  color: var(--textcolor);
+}
+
+.progressdiv {
+  height: 5px;
+  background-color: var(--graycolour) !important;
+}
+
+#progressdiv1 {
+  height: 100%;
+  width: 60%;
+  background-image: linear-gradient(to right, rgb(148, 234, 45), rgb(28, 175, 55)) !important;
+}
+
+#progressdiv2 {
+  height: 100%;
+  width: 60%;
+  background-image: linear-gradient(to right, rgb(255, 103, 5), rgb(239, 14, 115)) !important;
+}
+
+/* ==== user ==== */
+.usersdiv {
+  background-color: var(--divbackgroundclr);
+}
+
+#myChart {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.userhead {
+  font: 500 20px var(--font);
+  color: var(--whitecolor);
+}
+
+.usertext {
+  font: 400 15px var(--font);
+  color: var(--textcolor);
+}
+
+.threedots {
+  color: var(--whitecolor);
+  cursor: pointer;
+}
+
+.wrapper span {
+  font: 400 15px var(--font);
+  color: var(--whitecolor);
+}
+
+.usertext span {
+  color: rgb(49, 193, 49);
+}
+
+/* ==== devices ==== */
+#devicesChart1,
+#devicesChart2,
+#devicesChart3,
+#myChart1,
+#myChart2,
+#status1 {
+  height: min(100%, 325px) !important;
+  width: min(100%, 325px) !important;
+}
+
+.devicediv {
+  background-color: var(--divbackgroundclr);
+}
+
+.userhead1 {
+  font: 500 20px var(--font);
+  color: var(--whitecolor);
+}
+
+.userhead2 {
+  font: 500 34px var(--font);
+  color: rgb(78, 78, 249);
+}
+
+.userhead2 span {
+  font-size: 14px;
+  color: rgb(49, 193, 49);
+}
+
+#deviceicon1 {
+  color: #0d6efd;
+  font-size: 13.5px;
+}
+
+#deviceicon2 {
+  color: #fc185a;
+  font-size: 13.5px;
+}
+
+#deviceicon3 {
+  color: #02c27a;
+  font-size: 13.5px;
+}
+
+.devicename {
+  font: 400 15px var(--font);
+  color: var(--textcolor);
+}
+
+#accounts span {
+  background-color: rgba(49, 193, 49, 0.179);
+  color: rgb(49, 193, 49);
+  font-size: 14px;
+  padding: 5px 7.5px;
+}
+
+/* ==== device ==== */
+.devicehead1 {
+  font: 500 20px var(--font);
+  color: var(--whitecolor);
+}
+
+.Campaignhead {
+  font: 500 14px var(--font);
+  color: var(--whitecolor);
+}
+
+.Campaigntext1 {
+  font: 400 12px var(--font);
+  color: var(--textcolor);
+}
+
+.Campaigntext2 {
+  font: 400 12px var(--font);
+  color: var(--textcolor);
+}
+
+.Campaigntext1 span {
+  color: rgb(49, 193, 49);
+}
+
+.Campaigntext2 span {
+  color: #fc185a;
+}
+
+.Campaign2 {
+  border-bottom: 1px solid var(--graycolour);
+  border-top: 1px solid var(--graycolour);
+}
+
+#Campaignicon1 {
+  background-image: linear-gradient(rgb(244, 3, 134), rgb(131, 37, 196));
+  color: var(--whitecolor);
+  padding: 12px;
+}
+
+#Campaignicon2 {
+  background-image: linear-gradient(rgb(142, 231, 45), rgb(32, 177, 54));
+  color: var(--whitecolor);
+  padding: 12px;
+}
+
+#Campaignicon3 {
+  background-image: linear-gradient(rgb(41, 243, 154), rgb(1, 160, 250));
+  color: var(--whitecolor);
+  padding: 12px;
+}
+
+#Campaignicon4 {
+  background-image: linear-gradient(rgb(255, 206, 2), rgb(248, 155, 28));
+  color: var(--whitecolor);
+  padding: 12px;
+}
+
+#Campaignicon5 {
+  background-image: linear-gradient(rgb(0, 98, 235), rgb(0, 190, 250));
+  color: var(--whitecolor);
+  padding: 12px;
+}
+
+#Campaignicon6 {
+  background-image: linear-gradient(rgb(254, 100, 8), rgb(239, 15, 112));
+  color: var(--whitecolor);
+  padding: 12px;
+}
+
+#Campaignicon7 {
+  background-image: linear-gradient(rgb(102, 22, 206), rgb(41, 112, 250));
+  color: var(--whitecolor);
+  padding: 12px;
+}
+
+.growthhead h3 {
+  font: 500 38px var(--font);
+  color: var(--whitecolor);
+}
+
+.growthhead p {
+  font: 400 15px var(--font);
+  color: var(--textcolor);
+}
+
+.growthhead span {
+  font: 400 14px var(--font);
+  color: rgb(49, 193, 49);
+}
+
+.growthtext {
+  font: 400 14px var(--font);
+  color: var(--textcolor);
+}
+
+.growthdiv {
+  height: 5px;
+  background-color: var(--graycolour) !important;
+}
+
+.growthdiv1 {
+  height: 100%;
+  width: 87%;
+  background-image: linear-gradient(to right, rgb(253, 1, 129), rgb(123, 40, 201)) !important;
+}
+
+.growthdiv2 {
+  height: 100%;
+  width: 63%;
+  background-image: linear-gradient(to right, rgb(255, 209, 0), rgb(247, 152, 29)) !important;
+}
+
+.growthdiv3 {
+  height: 100%;
+  width: 38%;
+  background-image: linear-gradient(to right, rgb(0, 93, 235), rgb(0, 197, 251)) !important;
+}
+
+.socialhead {
+  font: 500 15px var(--font);
+  color: var(--textcolor);
+}
+
+.socialimg {
+  width: 35px;
+}
+
+.socialtext {
+  font: 400 15px var(--font);
+  color: var(--textcolor);
+}
+
+/* ==== Footer ==== */
+#foot {
+  font: 400 15px var(--font);
+  color: var(--textcolor);
+}
+
+#foot a {
+  color: var(--whitecolor);
+  font-weight: 500;
+}
+
+#footdiv {
+  border-top: 1px solid var(--graycolour);
+}
+
+#foot a:hover {
+  color: rgb(253, 1, 129);
+}
